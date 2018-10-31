@@ -5,6 +5,6 @@ let takeANumber = function(line, name){
 
 let nowServing = function(line){
   if(line.length === 0){
-    return 
+    return "There is nobody waiting to be served!" 
   }
 }
