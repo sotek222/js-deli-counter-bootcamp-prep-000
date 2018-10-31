@@ -15,7 +15,9 @@ let currentLine = function(line){
   if(line.length === 0){
     return "The line is currently empty.";
   } else {
-    
+    for(let i=0;i<line.length;i++){
+      
+    }
     // "The line is currently: 1. Ada, 2. Grace"
   }
 }
