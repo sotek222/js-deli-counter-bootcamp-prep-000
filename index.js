@@ -10,7 +10,7 @@ let nowServing = function(line){
     
     return (
       line[0]
-      line.shift();
+      line.shift()
       );
   }
 }
