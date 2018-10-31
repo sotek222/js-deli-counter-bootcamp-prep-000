@@ -5,6 +5,6 @@ let takeANumber = function(line, name){
 
 let nowServing = function(line){
   if(line === []){
-    
+    return 
   }
 }
