@@ -8,6 +8,9 @@ let nowServing = function(line){
     return "There is nobody waiting to be served!" 
   } else { 
     
-    return line[0];
+    return (
+      line[0]
+      line.shift();
+      );
   }
 }
