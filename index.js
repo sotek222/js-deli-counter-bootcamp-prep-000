@@ -17,8 +17,8 @@ let currentLine = function(line){
     return "The line is currently empty.";
   } else {
     for(let i=0;i<line.length;i++){
-      
+      str += i + '.' + line[i];
     }
-    // "The line is currently: 1. Ada, 2. Grace"
+    return str;// "The line is currently: 1. Ada, 2. Grace"
   }
 }
