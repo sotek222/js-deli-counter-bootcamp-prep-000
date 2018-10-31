@@ -12,6 +12,7 @@ let nowServing = function(line){
 }
 
 let currentLine = function(line){
+  let str = `The line is currently: `
   if(line.length === 0){
     return "The line is currently empty.";
   } else {
