@@ -12,5 +12,7 @@ let nowServing = function(line){
 }
 
 let currentLine = function(line){
-  
+  if(line.length === 0){
+    
+  }
 }
