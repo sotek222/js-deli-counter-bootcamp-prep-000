@@ -19,6 +19,6 @@ let currentLine = function(line){
     for(let i=0;i<line.length;i++){
       str += i + '.' + line[i];
     }
-    return str;// "The line is currently: 1. Ada, 2. Grace"
+    return str;s
   }
 }
