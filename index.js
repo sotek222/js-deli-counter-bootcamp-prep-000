@@ -9,8 +9,8 @@ let nowServing = function(line){
   } else { 
     
     return (
-      line[0]
-      line.shift()
+      line[0];
+      line.shift();
       );
   }
 }
