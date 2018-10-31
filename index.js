@@ -7,6 +7,6 @@ let nowServing = function(line){
   if(line.length === 0){
     return "There is nobody waiting to be served!" 
   } else { 
-    return line.unshift();
+    return `${line.unshift()}`;
   }
 }
