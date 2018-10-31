@@ -1,3 +1,3 @@
-let takeANumber = function(){
+let takeANumber = function(line, name){
   
 }
