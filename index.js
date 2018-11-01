@@ -19,6 +19,6 @@ let currentLine = function(line){
     for(let i=0;i<line.length;i++){
       str += i + 1 + '. ' + line[i] + ', ';
     }
-    return str.slice(0, str.length - 1);
+    return str.slice(0, str.length - 2);
   }
 }
